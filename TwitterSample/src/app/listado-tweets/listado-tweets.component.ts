@@ -38,7 +38,11 @@ export class ListadoTweetsComponent implements OnInit {
       this.misTweets.push(tweet3);
       this.misTweets.push(tweet4);
   }
-
+  
+  addNewTweet (){
+    this.misTweets.push(this.miTweet);
+    
+  }
   ngOnInit() {
   }
 

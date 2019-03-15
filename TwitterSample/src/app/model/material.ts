@@ -8,6 +8,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatNativeDateModule} from '@angular/material';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -22,7 +23,9 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
          MatDatepickerModule, 
          MatToolbarModule, 
          MatInputModule, 
-         MatFormFieldModule],
+         MatFormFieldModule,
+         MatCardModule
+        ],
     exports: [
         MatAutocompleteModule, 
         MatNativeDateModule, 
@@ -33,7 +36,9 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
         MatDatepickerModule, 
         MatToolbarModule, 
         MatInputModule, 
-        MatFormFieldModule],
+        MatFormFieldModule,
+        MatCardModule
+    ],
   })
 
 
