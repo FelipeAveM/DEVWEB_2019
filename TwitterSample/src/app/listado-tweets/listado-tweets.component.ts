@@ -10,6 +10,7 @@ export class ListadoTweetsComponent implements OnInit {
   misTweets: Array<Tweet>;
   miTweet: Tweet;
 
+  //Hola
   constructor() { 
     this.misTweets = new Array();
     this.miTweet = new Tweet();
