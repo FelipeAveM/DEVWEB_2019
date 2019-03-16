@@ -24,12 +24,12 @@ export class ListadoTweetsComponent implements OnInit {
       autor: 'JustADevGuy'
       };
       const tweet3 = {
-      id: 1,
+      id: 2,
       texto: '1969: What are you doing with that 2KB of RAM? -sending people to the moon',
       autor: 'AnotherDevGuy'
       };
       const tweet4 = {
-      id: 1,
+      id: 2,
       texto: '2019: What are you doing with that 1.5GB of RAM? -Just checking facebook',
       autor: 'AnotherDevGuy'
       };
@@ -41,7 +41,7 @@ export class ListadoTweetsComponent implements OnInit {
   
   addNewTweet (){
     this.misTweets.push(this.miTweet);
-    
+    this.miTweet = new Tweet();
   }
   ngOnInit() {
   }
